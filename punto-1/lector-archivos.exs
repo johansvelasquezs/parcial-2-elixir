@@ -30,8 +30,8 @@ defmodule LectorArchivos do
               {lista, descartados + 1}
           end
         end)
-      {:error, _} ->
-        {[], 0}
+      {:error, razon} ->
+        {:error, razon}
     end
   end
 
@@ -44,7 +44,8 @@ defmodule LectorArchivos do
           case String.split(linea, "@") do
             [codigo, id_ciudad, h_inicio, h_fin, magnitud, profundidad] ->
               with {mag, ""} <- Float.parse(String.trim(magnitud)),
-                   {prof, ""} <- Float.parse(String.trim(profundidad)) do
+                   {prof, ""} <- Float.parse(String.trim(profundidad)),
+                   true <- prof >= 0 do
                 mov = %Movimiento{
                   codigo: String.trim(codigo),
                   id_ciudad: String.trim(id_ciudad),
@@ -61,8 +62,8 @@ defmodule LectorArchivos do
               {lista, descartados + 1}
           end
         end)
-      {:error, _} ->
-        {[], 0}
+      {:error, razon} ->
+        {:error, razon}
     end
   end
 end
