@@ -1,0 +1,5 @@
+Ciudad: Armenia (ID: C01)
+  Población: 304314
+  Total Sismos: 3
+  Magnitud Máxima: 3.4
+  Profundidad Promedio: 11.00 km
