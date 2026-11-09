@@ -28,7 +28,7 @@ defmodule GeneradorReportes do
   def generar_reporte(ciudades, movimientos, descartados_ciudades, descartados_movimientos) do
     lineas_reporte = [
       "========================================",
-      "      REPORTE DEL OBSERVATORIO SÍSMICO  ",
+      "        REPORTE DEL OBSERVATORIO SÍSMICO  ",
       "========================================",
       ""
     ]
@@ -44,9 +44,7 @@ defmodule GeneradorReportes do
       "========================================"
     ]
 
-    contenido = Enum.join(lineas_reporte, "\n")
-    File.write("punto-1/resources/reporte_sismos.txt", contenido)
-    IO.puts(contenido)
+    Enum.join(lineas_reporte, "\n")
   end
 
   defp procesar_ciudades([], _movimientos), do: []
