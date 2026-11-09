@@ -1,0 +1,47 @@
+========================================
+      REPORTE DEL OBSERVATORIO SÍSMICO  
+========================================
+
+Ciudad: Tebaida (ID: C06)
+  Población: 44230
+  Total Sismos: 1
+  Magnitud Máxima: 3.2
+  Profundidad Promedio: 15.00 km
+----------------------------------------
+Ciudad: Salento (ID: C05)
+  Población: 7249
+  Sin movimientos registrados
+  Total Sismos: 0
+  Magnitud Máxima: No aplica
+  Profundidad Promedio: No aplica
+----------------------------------------
+Ciudad: Montenegro (ID: C04)
+  Población: 42100
+  Total Sismos: 1
+  Magnitud Máxima: 2.5
+  Profundidad Promedio: 12.50 km
+----------------------------------------
+Ciudad: Circasia (ID: C03)
+  Población: 30941
+  Total Sismos: 2
+  Magnitud Máxima: 5.0
+  Profundidad Promedio: 32.85 km
+----------------------------------------
+Ciudad: Calarcá (ID: C02)
+  Población: 78684
+  Total Sismos: 3
+  Magnitud Máxima: 4.1
+  Profundidad Promedio: 14.87 km
+----------------------------------------
+Ciudad: Armenia (ID: C01)
+  Población: 304314
+  Total Sismos: 3
+  Magnitud Máxima: 3.4
+  Profundidad Promedio: 11.00 km
+----------------------------------------
+
+----------------------------------------
+REGISTROS DESCARTADOS:
+  - Ciudades mal formadas: 1
+  - Movimientos mal formados: 2
+========================================

@@ -1,0 +1,6 @@
+Ciudad: Salento (ID: C05)
+  Población: 7249
+  Sin movimientos registrados
+  Total Sismos: 0
+  Magnitud Máxima: No aplica
+  Profundidad Promedio: No aplica
